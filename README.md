@@ -15,7 +15,7 @@
 
 # The general flow of events in an app
 
-!()[http://i.imgur.com/VTtBviG.png]
+![](http://i.imgur.com/VTtBviG.png)
 
 ```swift
 let action = UIAlertAction(title: "OK", style: .Default, handler: { void in
