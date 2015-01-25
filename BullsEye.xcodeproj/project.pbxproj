@@ -13,7 +13,6 @@
 		C243431F1A74009F00F3543E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C243431E1A74009F00F3543E /* Images.xcassets */; };
 		C24343221A74009F00F3543E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24343201A74009F00F3543E /* LaunchScreen.xib */; };
 		C243432E1A74009F00F3543E /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C243432D1A74009F00F3543E /* BullsEyeTests.swift */; };
-		C243433A1A74075500F3543E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C24343391A74075500F3543E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C243433A1A74075500F3543E /* README.md in Sources */,
 				C243431A1A74009F00F3543E /* ViewController.swift in Sources */,
 				C24343181A74009F00F3543E /* AppDelegate.swift in Sources */,
 			);
@@ -345,6 +343,7 @@
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,6 +354,7 @@
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

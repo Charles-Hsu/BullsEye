@@ -17,6 +17,20 @@
 
 !()[http://i.imgur.com/VTtBviG.png]
 
+```swift
+let action = UIAlertAction(title: "OK", style: .Default, handler: { void in
+  // start a new round after user click OK
+  self.startNewRound()
+  self.updateLabels()
+})
+alert.addAction(action)
+presentViewController(alert, animated: true, completion: nil)
+//startNewRound()
+```
+
+# Add the slider and the text labels
+
 # Reference
 
 - iOS Apprentice 1 Getting Start from Ray Wenderlich http://www.raywenderlich.com
+- How would I create a UIAlertView in Swift? http://stackoverflow.com/questions/24022479/how-would-i-create-a-uialertview-in-swift
