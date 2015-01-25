@@ -15,7 +15,7 @@
 
 # The general flow of events in an app
 
-!()[http://i.imgur.com/VTtBviG.png]
+![](http://i.imgur.com/VTtBviG.png)
 
 # Reference
 
